@@ -1,0 +1,10 @@
+{
+  "name": "duplicate-finder-3000",
+  "version": "1.0.0",
+  "description": "Generates and identifies duplicate integers in lists",
+  "main": "src/index.js",
+  "author": "Konstantinos Kapenekakis <i@oranger.me>",
+  "license": "BSD-2-Clause",
+  "dependencies": {},
+  "devDependencies": {}
+}
