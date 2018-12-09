@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "Generates and identifies duplicate integers in lists",
   "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "author": "Konstantinos Kapenekakis <i@oranger.me>",
   "license": "BSD-2-Clause",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
