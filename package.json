@@ -3,12 +3,21 @@
   "version": "1.0.0",
   "description": "Generates and identifies duplicate integers in lists",
   "main": "src/index.js",
+  "preferGlobal": true,
+  "bin": {
+    "generateDuplicates": "src/index.js"
+  },
   "scripts": {
     "test": "mocha"
   },
+  "engines": {
+    "node": ">=v10.11.0"
+  },
   "author": "Konstantinos Kapenekakis <i@oranger.me>",
   "license": "BSD-2-Clause",
-  "dependencies": {},
+  "dependencies": {
+    "minimist": "^1.2.0"
+  },
   "devDependencies": {
     "mocha": "^5.2.0"
   }
